@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Приветственное окно</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+    <div id='HelloWindow' class="HelloWindow">
+        <img src="img/journals.png">
+        <div class="text-definition">
+            <p>Электронная версия еженедельного общественно-политического журнала Новое Время — для планшетов, смартфонов и ноутбуков. Аналитика, интервью, авторские колонки, расследования.</p>
+            <p class="bold">Получи 30 дней бесплатной подписки на журнал Новое Время, зарегистрировавшись на сайте</p>
+            <form class="regHello">
+                <button class="regHello">Зарегистрироваться</button>
+            </form>
+        </div>
+        <button id='HelloWindow_close' class="closeWindow" ><strong>x</strong></button>
+        <script>
+            $('#HelloWindow_close').click(function(){
+                $('#HelloWindow').css("display","none")
+            });
+        </script>
+    </div>
+</body>
+</html>

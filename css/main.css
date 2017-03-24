@@ -1,0 +1,56 @@
+
+.HelloWindow {
+    width: 1155px;
+    height: 180px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+img {
+    margin: 20px;
+    float: left;
+}
+
+div.text-definition {
+    width: 850px;
+    font-size: 16px;
+    font-family: "PF Agora Sans Pro";
+    float: left;
+    margin: 20px;
+}
+
+p.bold {
+    width: 515px;
+    font-weight: bold;
+    padding: 15px 0 0 0;
+}
+
+button.regHello {
+    background: #d9544f;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "PF Agora Sans Pro";
+    float: right;
+    color: white;
+    padding: 15px;
+    position: absolute; /* Абсолютное позиционирование */
+    bottom: 25px; /* Положение от нижнего края */
+    right: 60px;
+    cursor: pointer;
+}
+
+button.regHello:hover {
+    background-color: #FD5650;
+}
+
+button.closeWindow {
+    font-size: 16px;
+    font-family: "PF Agora Sans Pro";
+    float: right;
+    position: absolute; /* Абсолютное позиционирование */
+    top: 15px; /* Положение от нижнего края */
+    right: 15px;
+    background: white;
+    border: none;
+    cursor: pointer;
+}
